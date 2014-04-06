@@ -19,6 +19,10 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.btn {
+  margin: 20px;
+}
+
 
 /*
  * Base structure

@@ -1,0 +1,54 @@
+extends layout
+
+block content
+	div.site-wrapper
+		div.site-wrapper-inner
+			div.cover-container
+				div.masthead.clearfix
+					div.inner
+						h3.masthead-brand 
+							a(href="/") Logo
+						ul.nav.masthead-nav
+							li
+								a(href="/") Home
+							li
+								a(href="#") Sign in
+							li.active
+								a(href="/signup") Sign up
+				div.jumbotron
+					h1.cover-heading Sign up
+					p.lead We know you'll love it.
+					div.signupbox
+						form.form-horizontal(role="form")
+							div.form-group
+								label.col-sm-2.control-label(for="firstName") First Name
+								div.col-sm-10
+									input.form-control(type="text" placeholder="First Name")
+							div.form-group
+								label.col-sm-2.control-label(for="lastName") Last Name
+								div.col-sm-10
+									input.form-control(type="text" placeholder="Last Name")
+							div.form-group
+								label.col-sm-2.control-label(for="email") Email
+								div.col-sm-10
+									input.form-control(type="email" placeholder="Email")
+							div.form-group
+								label.col-sm-2.control-label(for="password") Password 
+								div.col-sm-10
+									input.form-control(type="password" placeholder="Password")
+							div.form-group
+								label.col-sm-2.control-label(for="verify") Verify 
+								div.col-sm-10.verify
+									input.form-control(type="password" placeholder="Verify")
+							fieldset.signIn(disabled=true)
+								div.form-group
+									label
+										button.btn.btn-default(type="submit") Sign up
+				div.mastfoot
+					a(href="#") Contact
+
+
+
+
+
+

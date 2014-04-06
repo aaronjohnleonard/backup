@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	div.site-wrapper
+		div.site-wrapper-inner
+			div.cover-container
+				div.masthead.clearfix
+					div.inner
+						h3.masthead-brand Backup
+						ul.nav.masthead-nav
+							li.active
+								a(href="#") Home
+							li
+								a(href="#") Sign in
+				div.jumbotron
+					h1.cover-heading Backup
+					p.lead Google stores your contacts. We'll store everything else.
+					p.lead
+						a(href="#").btn.btn-lg.btn-default For Developers
+						a(href="#").btn.btn-lg.btn-default For Everyone Else
+				div.mastfoot
+					a(href="#") Contact
